@@ -25,4 +25,10 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
+group :development, :test do
+  gem 'pry-rails'
+  # gem 'pry-byebug'
+  gem 'pry-doc'
+end
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
